@@ -3,7 +3,6 @@ import { toast } from 'react-toastify';
 import * as actions from './actions';
 import * as consts from './constants';
 import { loginAxios } from './api';
-import { modal } from '../../components/shared/ModalContainer';
 // PUT ALL SAGAS BELOW THIS LINE AND DO NOT REMOVE
 // Individual exports for testing
 export function* testSaga() {

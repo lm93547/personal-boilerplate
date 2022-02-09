@@ -11,7 +11,6 @@ import injectReducer from '../../utils/injectReducer';
 import appReducer from './reducer';
 import  {ToastContainer}  from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { modal } from '../../components/shared/ModalContainer';
 
 function App({dispatch, app, map,...props}) {
 
